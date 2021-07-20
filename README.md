@@ -9,10 +9,10 @@ Adobe Custom XMP File Info Panel that includes example sections displaying both 
 
 #### 1. PANEL FILES
 * Copy the enture `Example` folder structure over to the appropriate operating system specific location :
-  * Macintosh :point_right: "/Library/Application Support/Adobe/XMP/Metadata Extensions/"
-  * Windows :point_right: "C:\Program Files (x86)\Common Files\Adobe\XMP\Metadata Extensions\"
+  * Macintosh :point_right: `/Library/Application Support/Adobe/XMP/Metadata Extensions/`
+  * Windows :point_right: `C:\Program Files (x86)\Common Files\Adobe\XMP\Metadata Extensions\`
 
 #### 2. PANEL FILE MAINTENANCE
 * The XML files should be viewed , edited , and maintained using a standard programmer's text editor :
-  * Windows :point_right: Notepad++ ( _https://notepad-plus-plus.org_ ).
   * Macintosh :point_right: Atom ( _https://atom.io/_ ).
+  * Windows :point_right: Notepad++ ( _https://notepad-plus-plus.org_ ).
