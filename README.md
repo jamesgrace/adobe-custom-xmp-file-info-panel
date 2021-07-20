@@ -8,7 +8,7 @@ Adobe Custom XMP File Info Panel that includes example sections displaying both 
 ## Installation Procedure :
 
 #### 1. PANEL FILES
-* Copy the enture `Example` folder structure over to the appropriate operating system specific location :
+* Copy the entire `Example` folder structure over to the appropriate operating system specific location :
   * Macintosh :point_right: `/Library/Application Support/Adobe/XMP/Metadata Extensions/`
   * Windows :point_right: `C:\Program Files (x86)\Common Files\Adobe\XMP\Metadata Extensions\`
 
