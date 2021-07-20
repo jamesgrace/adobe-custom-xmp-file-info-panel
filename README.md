@@ -17,8 +17,8 @@ Adobe Custom XMP File Info Panel that includes example sections displaying both 
 * Launch Adobe Photoshop 
 * Select `File` > `Open` to view the included `NASA_Worm_Logo.tif` image.
 * Select `File` > `File Info...` to view the Adobe XMP dialog.
-* Verify that the Example panel is listed ( within the left-hand side of the XMP dialog )
-* Select the Example panel and verify that the image's Custom Metadata , Standard Metadata , and Technical Attrbutes display as expected.
+* Verify that the **Example** panel is listed ( *within the left-hand side of the XMP dialog* ).
+* Select the **Example** panel and verify that the sample image's Custom Metadata , Standard Metadata , and Technical Attrbutes display as expected.
 
 #### 3. PANEL MAINTENANCE
 * The XML files should be viewed , edited , and maintained using a standard programmer's text editor :
