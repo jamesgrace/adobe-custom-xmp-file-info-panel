@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xmp_definitions>
+	<xmp_schema namespace="http://ns.adobe.com/xap/1.0/" prefix="xmp" label="Example" description="Example - Custom XMP File Info Panel for Adobe Creative Cloud.">
+		<xmp_property category="internal" name="ExampleProductSKU" type="text" label="Product SKU - Read Only:" description="Product SKU ( Read Only ). Useful in workflow scenarios where existing Custom Metadata may need to be viewed during image processing operations." />
+		<xmp_property category="internal" name="ExampleProductRegion" type="text" label="Product Region - Read Only:" description="Product Region ( Read Only ). Useful in workflow scenarios where existing Custom Metadata may need to be viewed during image processing operations." />
+		<xmp_property category="external" name="ExampleProductColor" type="closedchoice" label="Product Color:" description="Product Color" element_type="text">
+			<xmp_choice label="(select)" />
+			<xmp_choice raw_value="Red" label="Red" />
+			<xmp_choice raw_value="Green" label="Green" />
+			<xmp_choice raw_value="Blue" label="Blue" />
+		</xmp_property>
+		<xmp_property category="external" name="ExampleProductTeam" type="closedchoice" label="Product Team:" description="Product Team" element_type="text">
+			<xmp_choice label="(select)" />
+			<xmp_choice raw_value="Cyan" label="Cyan" />
+			<xmp_choice raw_value="Magenta" label="Magenta" />
+			<xmp_choice raw_value="Yellow" label="Yellow" />
+		</xmp_property>
+	</xmp_schema>
+</xmp_definitions>

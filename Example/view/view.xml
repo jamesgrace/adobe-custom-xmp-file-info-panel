@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<views xmlns="http://ns.adobe.com/metadata/ui/1.0/">
+	<view xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:exif="http://ns.adobe.com/exif/1.0/" name="Example" label="Example" description="Example - Custom XMP File Info Panel for Adobe Creative Cloud.">
+		<section label="Custom XMP Fields - Example">
+			<property name="xmp:ExampleProductSKU" />
+			<property name="xmp:ExampleProductRegion" />
+			<property name="xmp:ExampleProductColor" />
+			<property name="xmp:ExampleProductTeam" />
+		</section>
+		<section label="Description/Keywords/Rating - Example">
+			<property name="dc:description" label="Description:" multiLines="3" />
+			<property name="dc:subject" label="Keywords:" description="Semicolons or commas can be used to separate mulitple values." multiLines="2" hint="Semicolons or commas can be used to separate mulitple values." />
+			<property name="xmp:Rating" type="rating" label="Rating:" />
+		</section>
+		<section label="Technical Attributes - Example - version 20july2021">
+			<formatter
+				label="Image Size"
+				description="Displays the Width and Height of the image in pixels."
+				format="Width: [ @0 ] x Height: [ @1 ] in pixels">
+				<property name="exif:PixelXDimension" />
+				<property name="exif:PixelYDimension" />
+			</formatter>
+			<property name="xmp:CreateDate" label="Created:" description="The date and time the resource was originally created." />
+			<property name="xmp:ModifyDate" label="Modified:" description="The date and time the resource was last modified. The value of this property is not necessarily the same as the file's system modification date because it is set before the file is saved." />
+			<property name="xmp:CreatorTool" label="Application:" description="The name of the tool used to create the resource." />
+			<property name="xmp:Format" label="Format:" description="The file format used when saving the resource. Tools and applications shold set this property to the save format of the data. It may include appropriate qualifers." />
+		</section>
+	</view>
+</views>
