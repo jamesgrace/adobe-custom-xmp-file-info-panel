@@ -11,6 +11,7 @@ Adobe Custom XMP File Info Panel that includes example sections displaying both 
 * Copy the entire `Example` folder structure over to the appropriate operating system specific location :
   * Macintosh :point_right: `/Library/Application Support/Adobe/XMP/Metadata Extensions/`
   * Windows :point_right: `C:\Program Files (x86)\Common Files\Adobe\XMP\Metadata Extensions\`
+* Download the included `NASA_Worm_Logo.tif` sample image to an accessible location.
 
 #### 2. PANEL VERIFICATION
 * Launch Adobe Photoshop 
